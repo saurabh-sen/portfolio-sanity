@@ -26,7 +26,7 @@ const Navbar = ({resumeLink}) => {
 
         {
         toggle ? 
-          <motion.div className={`${styles.Navbar__menu__motion} fixed top-0 bottom-0 right-0 p-4 w-[80%] h-screen flex justify-end items-end flex-col bg-cover bg-repeat bg-white`}
+          <motion.div className="Navbar__menu__motion fixed top-0 bottom-0 right-0 p-4 w-[80%] h-screen flex justify-end items-end flex-col bg-cover bg-repeat bg-white"
           style={{
             boxShadow: "0px 0px 20px rgba(168, 168, 168, 0.15)",
           }} 
