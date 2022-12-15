@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu, GiCrossedBones } from 'react-icons/gi';
 import { motion } from 'framer-motion';
-import styles from '../../../styles/NavBar.module.css';
 import Link from 'next/link';
 
 const Navbar = ({resumeLink}) => {

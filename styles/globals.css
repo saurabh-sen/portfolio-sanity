@@ -70,6 +70,11 @@
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
 }
 
+/* navbar */
+.Navbar__menu__motion{
+  background-image: url("../public/assets/bgWhite.png");
+}
+
 /* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
 :root {
