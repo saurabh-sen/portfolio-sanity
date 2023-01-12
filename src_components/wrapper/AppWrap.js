@@ -8,7 +8,9 @@ const AppWrap = (Component, idName, classNames, copyright) =>
         id={idName}
         className={`app__container min-h-screen flex flex-row ${classNames}`}
       >
+        {/* {idName !== 'work' && <SocialMedia /> } */}
         <SocialMedia />
+        
         <div className="app__wrapper pt-16 px-4 pb-8 flex-1 w-full flex-col">
           <Component />
 
@@ -26,6 +28,8 @@ const AppWrap = (Component, idName, classNames, copyright) =>
             </div>
           )}
         </div>
+
+        {/* navigation dots */}
         <NavigationDots active={idName} />
       </div>
     );

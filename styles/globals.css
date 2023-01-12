@@ -3,24 +3,19 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
 #home {
   position: relative;
-  background: url("../public/assets/bgIMG.png");
+  background: url("../public/assets/bgWhite.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-@media screen and (max-width : 383px){
-  #home {
-    width: min-content;
-  }
-}
-
-@media screen and (max-width : 383px){
-  #work {
-    margin-right: -5rem;
-  }
 }
 
 .overlay_circle {
@@ -74,24 +69,3 @@
 .Navbar__menu__motion{
   background-image: url("../public/assets/bgWhite.png");
 }
-
-/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
-
-:root {
-  --font-base: "DM Sans", sans-serif;
-
-  --primary-color: #edf2f8;
-  --secondary-color: #313bac;
-  --black-color: #030303;
-  --lightGray-color: #e4e4e4;
-  --gray-color: #6b7688;
-  --brown-color: #46364a;
-  --white-color: #ffffff;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
-} */

@@ -24,7 +24,7 @@ const Skills = () => {
 
   return (
     <>
-      <h2 className="head-text m-8 text-3xl md:text-5xl font-bold text-center text-black capitalize">Skills & Experiences</h2>
+      <h2 className="head-text m-8 text-2xl md:text-5xl font-bold text-center text-black capitalize">Skills & Experiences</h2>
 
       <div className="app__skills-container w-full flex-col md:w-4/5 mt-12 flex md:flex-row ">
         <motion.div className="app__skills-list flex flex-1 flex-wrap mr-0 justify-center items-center md:justify-start md:text-start md:mr-20 ">
@@ -34,7 +34,7 @@ const Skills = () => {
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
               className="app__skills-item flex-col text-center m-4 transition-all duration-300 ease-in-out 2xl:my-4 2xl:mx-8 app__flex flex justify-center items-center"
-              key={skill.name}
+              key={index}
             >
               <div
                 className="app__flex flex justify-center items-center w-24 h-24 rounded-[50%] bg-[#fef4f5] hover:shadow-[0 0 25px #fef4f5]"
@@ -55,7 +55,7 @@ const Skills = () => {
           experiences.map((experience, index) => (
             <motion.div
               className="app__skills-exp-item w-full flex flex-col sm:flex-row justify-start items-start my-4"
-              key={experience.year}
+              key={index}
             >
               <div className="app__skills-exp-year mr-12">
                 <p className="bold-text text-xs sm:text-sm  text-left font-bold text-[#6b7688]">{experience.year}</p>
@@ -69,7 +69,7 @@ const Skills = () => {
                       className="app__skills-exp-work flex flex-col justify-start items-start mb-4 cursor-pointer"
                       data-tip
                       data-for={work.name}
-                      key={work.name}
+                      key={index}
                     >
                       <h4 className="bold-text text-xs sm:text-sm  text-left font-semibold text-[#6b7688]">{work.name}</h4>
                       <p className="p-text text-xs text-left leading-normal text-[#6b7688] mt-1">{work.company}</p>

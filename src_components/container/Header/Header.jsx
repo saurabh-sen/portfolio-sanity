@@ -26,32 +26,26 @@ const Header = () => (
     >
       <div className="app__header-badge w-full flex justify-start items-start lg:justify-end lg:items-end flex-col">
         <div
-          className="badge-cmp app__flex flex justify-center items-center px-4 py-8 bg-[#c1c5cc56] rounded-2xl flex-row w-auto"
-          style={{
-            boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.1)",
-          }}
+          className="badge-cmp app__flex flex justify-center items-center px-2 py-4 bg-[#c1c5cc56] rounded-2xl flex-row w-auto shadow-md"
         >
-          <span className="text-4xl 2xl:text-7xl">👋</span>
-          <div style={{ marginLeft: 20 }}>
-            <p className=" 2xl:text-3xl text-xs text-[#6b7688] leading-normal w-full uppercase text-left ">
+          <span className="text-2xl sm:text-4xl 2xl:text-7xl">👋</span>
+          <div className="sm:ml-5 ml-1" >
+            <p className=" 2xl:text-3xl md:text-base text-[10px] text-[#6b7688] leading-normal w-full uppercase text-left ">
               Hello, I am
             </p>
-            <h1 className="sm:text-5xl font-bold text-center text-black capitalize text-[2rem]">
+            <h1 className="sm:text-5xl font-bold text-center text-black capitalize text-xl">
               Saurabh
             </h1>
           </div>
         </div>
 
         <div
-          className="tag-cmp app__flex flex justify-center items-center flex-col mt-12 bg-[#c1c5cc56] text-xs px-8 py-4 rounded-2xl"
-          style={{
-            boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.1)",
-          }}
+          className="tag-cmp app__flex flex justify-center items-center flex-col mt-12 bg-[#c1c5cc56] text-xs px-8 py-4 rounded-2xl shadow-md"
         >
-          <p className="2xl:text-3xl text-xs text-[#6b7688] leading-normal w-full uppercase text-right ">
+          <p className="2xl:text-3xl md:text-base text-[10px] text-[#6b7688] leading-normal w-full uppercase text-right ">
             Web Developer 💻
           </p>
-          <p className=" 2xl:text-3xl text-xs text-[#6b7688] leading-normal w-full uppercase text-right ">
+          <p className=" 2xl:text-3xl md:text-base text-[10px] text-[#6b7688] leading-normal w-full uppercase text-right ">
             Freelancer
           </p>
         </div>

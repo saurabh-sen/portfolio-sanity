@@ -38,9 +38,9 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text text-3xl sm:text-5xl font-bold text-center text-black capitalize">Take a coffee & chat with me</h2>
+      <h2 className="head-text text-xl sm:text-2xl md:text-5xl font-bold text-center text-black capitalize">Take a coffee & chat with me</h2>
 
-      <div className="app__footer-cards w-full lg:w-3/5 flex justify-evenly items-center flex-wrap mt-[4em] ml-8 mr-8 mb-8 ">
+      <div className="app__footer-cards lg:w-3/5 flex justify-evenly items-center flex-wrap ">
 
         <div className="app__footer-card min-w-[190px] sm:min-w-[290px] flex flex-row justify-start items-center my-4 p-4 rounded-xl cursor-pointer bg-[#fef4f5] transition-all duration-300 ease-in-out ">
           <Image className='w-10 h-10 mx-3' src={images.email} alt="email" />

@@ -5,7 +5,7 @@ import { ImLinkedin } from 'react-icons/im'
 import Link from 'next/link';
 
 const SocialMedia = () => (
-  <div className="flex justify-end items-center flex-col p-4">
+  <div className="hidden sm:flex justify-end items-center flex-col p-4">
     <Link href="https://linkedin.com/in/saurabh-sen-profile" taget="_blank" >
       <div className='bg-[#e6ecf3] cursor-pointer m-2 w-10 h-10 rounded-[50%] mx-1 border border[#e4e4e4] flex justify-center items-center transition-all duration-300 ease-in-out hover:bg-[#acdff7c7] border-[#313bac] hover:text-white'>
         <ImLinkedin className='w-4 h-4 text-[#6b7688] hover:text-white' />
